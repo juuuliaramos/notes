@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Notas from './components/Notas.jsx/index.jsx'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <section>
+      <form>
+        <input type="text" placeholder="Título da Nota" />
+        <textarea placeholder="Escrava o conteúdo da sua nota..." />
+        <button>Criar Nota</button>
+      </form>
+
+      <Notas />
+    </section>
+  )
 }
 
-export default App;
+export default App
