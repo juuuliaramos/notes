@@ -1,0 +1,36 @@
+/* Background do campo de notas */
+#background-notes {
+  width: calc(100vw - 20%);
+  height: 100vh;
+  background-color: #0a1128;
+  display: flex;
+}
+
+/* Corpo do card */
+#card-field {
+  width: 10%;
+  height: 10%;
+  padding: 10px;
+  margin: 20px;
+  background-color: #001f54;
+  color: #fefcfb;
+  border: 2px solid #fefcfb;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#card-field:hover {
+  background-color: #1282a2;
+}
+
+/* Remove o ícone do <li> */
+li {
+  list-style-type: none;
+}
+
+/* Conteúdo dentro na nota */
+#p-note-content {
+  padding: 10px;
+}

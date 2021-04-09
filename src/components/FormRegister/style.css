@@ -1,0 +1,52 @@
+/* form */
+#form {
+    width: 30%;
+    height: 100vh;
+    font-size: 18px;
+    background-color: #001f54;
+    color: #fefcfb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* input */
+#input-form{
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+/* textarea */
+#textarea-form{
+    height: 60%;
+}
+
+/* Estilização comum ao input e textarea do form */
+.background-form-elements{
+    width: 80%;
+    padding: 10px;
+    background-color: #fefcfb;
+    border-radius: 20px;
+    border: 2px solid #001f54;
+    font-size: 18px;
+}
+
+/* button */
+#btt{
+    width: 25%;
+    height: 50px;
+    min-width: 100px;
+    margin: 50px;
+    font-size: 18px;
+    color: #fefcfb;
+    border-radius: 20px;
+    background-color: #1282a2;
+    border: 2px solid #fefcfb;
+    cursor: pointer;
+}
+#btt:hover{
+    color: #1282a2;
+    background-color: #fefcfb;
+    border: 2px solid #1282a2;
+}

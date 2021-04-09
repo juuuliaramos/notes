@@ -1,17 +1,17 @@
-import Notas from './components/Notas.jsx/index.jsx'
+import { Component } from 'react'
+import Notes from './components/Notes.jsx/index.jsx'
+import FormRegister from './components/FormRegister'
 
-function App() {
-  return (
-    <section>
-      <form>
-        <input type="text" placeholder="Título da Nota" />
-        <textarea placeholder="Escrava o conteúdo da sua nota..." />
-        <button>Criar Nota</button>
-      </form>
+class App extends Component {
+  render() {
+    return (
+      <section id="section-body-app">
 
-      <Notas />
-    </section>
-  )
+        <FormRegister />
+        <Notes />
+      </section>
+    )
+  }
 }
 
 export default App
